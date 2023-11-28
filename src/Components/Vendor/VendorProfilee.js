@@ -48,9 +48,9 @@ const VendorProfilee = () => {
        <div className="flex flex-col justify-center items-center w-[85vw] lg:w-[100vw] md:w-[150vw] sm:w-[235vw] s:w-[320vw] m:w-[270vw] min-h-[100vh]
                         bg-[#E3E4E5]">
         {/* <div className={styles.navbar}> */}
-        <div className="flex justify-end items-center w-[85vw] lg:w-[100vw] md:w-[140vw] sm:w-[235vw] m:w-[270vw] s:w-[320vw] h-[70px] bg-white  ">
+        <div className="flex justify-end items-center w-[85vw] lg:w-[100vw] md:w-[140vw] sm:w-[235vw] m:w-[270vw] s:w-[320vw] h-[70px] bg-white">
           <img src={profile} alt="Profile" className={styles.profile} />
-          profile Picture
+          profile Picturex
           <img src={help} alt="help" className={styles.help} />
         </div>
         {/* <div className={styles.grayBackground}> */}

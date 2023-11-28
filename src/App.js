@@ -5,6 +5,11 @@
 import VendorProfilee from "./Components/Vendor/VendorProfilee";
 import "./App.css";
 import ReviewRating from "./Components/ReviewRating/ReviewRating";
+import OptionCitizen from "./Components/OptionCitizen/OptionCitizen";
+import TalwindPage from "./Components/TalwindPage/TalwindPage";
+import Dashboard from "./Components/Dashboard/Dashboard";
+import Practice from "./Components/Practice/Practice";
+import Vscode from "./Components/Codesimple/Vscode";
 
 function App() {
   return (
@@ -13,8 +18,13 @@ function App() {
       {/* <FifthPage /> */}
       {/* <SixthPage /> */}
       {/* <SeventhPage /> */}
-      {/* <VendorProfilee /> */}
-      <ReviewRating />
+       {/* <VendorProfilee />  */}
+      {/* <ReviewRating /> */}
+      {/* <OptionCitizen /> */}
+      {/* <TalwindPage /> */}
+      {/* <Dashboard /> */}
+      {/* <Practice /> */}
+      <Vscode />
     </div>
   );
 }

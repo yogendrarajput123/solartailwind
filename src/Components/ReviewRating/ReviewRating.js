@@ -49,6 +49,8 @@ const ReviewRating = () => {
           <img src={help} alt="help" className={styles.help} />
         </div>
         <div className={styles.grayBackground}>
+
+        
           <div className="Main max-w-[1440px] min-w-[320px] xl2:min-w-[1336px] md:min-w-[70px] grid grid-rows-4">
             <div className="ml-[70px] font-semibold mt-7 text-2xl text-[#152C5B]">
               Notification
