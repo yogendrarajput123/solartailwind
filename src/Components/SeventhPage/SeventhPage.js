@@ -2,9 +2,9 @@ import React from "react";
 
 function SeventhPage() {
   return (
-    <div className="max-w-[1440px] min-w-[1200px] container flex">
-      <div className="space-y-5 font-semibold text-sm text-white mt-[120px] cursor-pointer ">
-        <div className="sidebar xl2:w-[400px] bg-[#235688] justify-center space-y-3 pl-9 top-0 pt-14 h-[100%] w-[350px] bg-fixed fixed">
+    <div className="container flex">
+      <div className="space-y-5 font-semibold text-sm text-white mt-[120px] cursor-pointer hidden md:block">
+        <div className="sidebar xl2:w-[350px] bg-[#235688] justify-center space-y-3 xl2:pl-9 md:pl-2 top-0 pt-14 h-[100%] md:w-[270px] bg-fixed fixed">
           <p className="hover:text-slate-300">All About Solar Power</p>
           <p className="hover:text-slate-300">Solar Panel Installation</p>
           <p className="hover:text-slate-300">
@@ -25,14 +25,13 @@ function SeventhPage() {
         </div>
       </div>
 
-      <div className="container xl2:ml-[420px] ml-[350px] xl2:max-w-[1000px]
-                       md:max-w-[830px] s:max-w-[830px]">
+      <div className="container xl2:ml-[350px] md:ml-[270px] s:ml-0">
         <div className="content">
-          <div className="font-semibold text-3xl pt-5 pl-4">
+          <div className="font-semibold md:text-3xl s:text-2xl pt-5 pl-4">
             <p>In Which Category Do You Belong to?</p>
           </div>
 
-          <div className="pl-4 pt-16">
+          <div className="pl-4 md:pt-16 s:pt-10">
             <p>
               Have you ever pondered the ways in which various sectors in Indore
               contribute to its energy consumption? From thriving industries to

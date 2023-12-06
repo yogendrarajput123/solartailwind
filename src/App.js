@@ -10,21 +10,23 @@ import TalwindPage from "./Components/TalwindPage/TalwindPage";
 import Dashboard from "./Components/Dashboard/Dashboard";
 import Practice from "./Components/Practice/Practice";
 import Vscode from "./Components/Codesimple/Vscode";
+import FourthPage from "./Components/FourthPage/PageFour";
+import FifthPage from "./Components/FifthPage/FifthPage";
+import SixthPage from "./Components/SixthPage/SixthPage";
+import SeventhPage from "./Components/SeventhPage/SeventhPage";
 
 function App() {
   return (
     <div>
-      {/* <PageFour /> */}
-      {/* <FifthPage /> */}
-      {/* <SixthPage /> */}
-      {/* <SeventhPage /> */}
        {/* <VendorProfilee />  */}
       {/* <ReviewRating /> */}
       {/* <OptionCitizen /> */}
-      {/* <TalwindPage /> */}
       {/* <Dashboard /> */}
-      {/* <Practice /> */}
-      <Vscode />
+      {/* <Vscode /> */}
+      {/* <FourthPage /> */}
+      {/* <FifthPage /> */}
+      {/* <SixthPage /> */}
+      {/* <SeventhPage /> */}
     </div>
   );
 }

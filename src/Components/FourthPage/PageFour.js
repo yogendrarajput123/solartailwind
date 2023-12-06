@@ -17,8 +17,8 @@ import fifthImage from "./images/fifthImage.png";
 
 export default function FourthPage() {
   return (
-    <div className="max-w-[1440px] min-w-[1200px] container flex">
-      <div className="space-y-5 font-semibold text-sm text-white mt-[120px] cursor-pointer ">
+    <div className="container flex">
+      <div className="space-y-5 font-semibold text-sm text-white mt-[120px] cursor-pointer hidden md:block">
         <div className="sidebar xl2:w-[400px] bg-[#235688] justify-center space-y-3 pl-9 top-0 pt-14 h-[100%] w-[350px] bg-fixed fixed">
           <p className="hover:text-slate-300">All About Solar Power</p>
           <p className="hover:text-slate-300">Solar Panel Installation</p>
@@ -40,9 +40,9 @@ export default function FourthPage() {
         </div>
       </div>
 
-      <div className="container xl2:ml-[420px] ml-[360px] s:max-w-[800px]">
-        <div className="content xl2:max-w-[980px]">
-          <p className="font-semibold text-3xl pt-5 pl-4">
+      <div className="container xl2:ml-[420px] md:ml-[360px]">
+        <div className="content">
+          <p className="font-semibold md:text-3xl s:text-xl pt-5 pl-4">
             Calculating the Budget for Solar Installation: A Comprehensive Guide
           </p>
           <p className="pl-4 pt-6">
@@ -61,23 +61,23 @@ export default function FourthPage() {
             periods, and any expected rises in electricity needs.
           </p>
           <div className="flex flex-row pt-16">
-            <div className=" w-[100px]  ml-16 s:ml-8  mt-[10px] ">
+            <div className=" md:w-[100px] s:w-[60px] ml-16 s:ml-5 md:mt-[10px] s:-mt-10">
               <img src={firstLogo} alt="" />
             </div>
 
-            <div className="mt-14 ml-[-50px] lg:left-0 ">
+            <div className="md:mt-14 s:-mt-5 md:ml-[-50px] s:-ml-10 lg:left-0 ">
               <img
-                className="max-w-[800px] md:max-w-[600px] s:max-w-[645px] items-center"
+                className=" md:max-w-[600px] xl2:max-w-[800px] s:max-w-[250px] m:max-w-[300px] sm:max-w-[320px] items-center"
                 src={firstImage}
                 alt=""
               />
             </div>
 
-            <div className=" w-[100px] mt-[380px] ml-[-49px] md:mt-[300px] s:mt-[315px]">
+            <div className=" md:w-[100px] s:w-[70px] mt-[380px] ml-[-49px] md:mt-[300px] s:mt-14 m:mt-20 sm:mt-[90px] xl2:mt-[380px]">
               <img src={secondLogo} className="" alt="" />
             </div>
           </div>
-          <div className="pl-4 pt-20">
+          <div className="pl-4 md:pt-20 s:pt-12">
             <p className="font-semibold">Evaluate the available space:</p>
             <p>
               Evaluate the amount of space you have on your property to install
@@ -87,20 +87,24 @@ export default function FourthPage() {
               might want to consider other options like ground-mounted systems.
             </p>
           </div>
-          <div className="flex flex-row mt-8">
-            <div className="ml-56 md:ml-[150px] s:ml-[150px]">
-              <img src={thirdLogo} className="w-[100px]" alt="" />
+          <div className="flex flex-row mt-8 md:-ml-14 xl2:ml-20">
+            <div className="md:ml-[150px] s:ml-5">
+              <img src={thirdLogo} className="md:w-[100px] s:w-[80px]" alt="" />
             </div>
 
-            <div className="max-w-[450px] mt-12 ml-[-50px]">
+            <div className="md:w-[450px] s:w-[300px] md:mt-12 s:mt-7 md:ml-[-50px] s:-ml-10">
               <img src={secondImage} alt="" />
             </div>
 
-            <div className="mt-[310px] ml-[-40px]">
-              <img src={fourthLogo} alt="" className="w-[100px]" />
+            <div className="md:mt-[310px] s:mt-[150px] m:mt-[170px] sm:mt-[190px] md:ml-[-40px] s:ml-[-30px] s:mr-4 md:mr-0">
+              <img
+                src={fourthLogo}
+                alt=""
+                className="md:w-[100px] s:w-[80px]"
+              />
             </div>
           </div>
-          <div className="pl-4 pt-24">
+          <div className="pl-4 md:pt-24 s:pt-14">
             <p className="font-semibold">Obtain multiple quotes:</p>
             <p>
               To get a clear idea of the prices in the market and have options
@@ -109,20 +113,24 @@ export default function FourthPage() {
               specifications of the system you are considering.
             </p>
           </div>
-          <div className="flex flex-row mt-8">
-            <div className="ml-44 md:ml-28 s:ml-[90px]">
-              <img src={fifthLogo} className="w-[100px]" alt="" />
+          <div className="flex flex-row mt-8 sm:ml-6 md:-ml-20 xl2:ml-20">
+            <div className="ml-44 md:ml-28 s:ml-5">
+              <img src={fifthLogo} className="md:w-[100px] s:w-[80px]" alt="" />
             </div>
 
-            <div className="max-w-[550px] mt-12 ml-[-40px]">
+            <div className="md:max-w-[550px] s:max-w-[250px] md:mt-12 s:mt-6 m:mt-8 ml-[-40px]">
               <img src={thirdImage} alt="" />
             </div>
 
-            <div className="mt-[350px] ml-[-40px]">
-              <img alt=" " src={sixthLogo} className="w-[100px]" />
+            <div className="md:mt-[350px] s:mt-[145px] m:mt-[] ml-[-40px] s:mr-2 md:mr-0">
+              <img
+                alt=" "
+                src={sixthLogo}
+                className="md:w-[100px] s:w-[80px]"
+              />
             </div>
           </div>
-          <div className="pl-4 pt-24">
+          <div className="pl-4 md:pt-24 s:pt-12">
             <p className="font-semibold">Assess system components:</p>
             <p>
               When thinking about solar panels, inverters, mounting structures,
@@ -132,20 +140,28 @@ export default function FourthPage() {
               performance and durability, resulting in long-term savings.
             </p>
           </div>
-          <div className="flex flex-row mt-8">
-            <div className="ml-56 md:ml-[150px] s:ml-[150px]">
-              <img src={seventhLogo} className="w-[100px]" alt="" />
+          <div className="flex flex-row mt-8 sm:ml-8 md:-ml-20 xl2:ml-20">
+            <div className="ml-56 md:ml-[150px] s:ml-5">
+              <img
+                src={seventhLogo}
+                className="md:w-[100px] s:w-[80px]"
+                alt=""
+              />
             </div>
 
-            <div className="max-w-[450px] mt-12 ml-[-40px]">
+            <div className="md:max-w-[450px] s:max-w-[250px] md:mt-12 s:mt-6 m:mt-8 ml-[-40px]">
               <img src={fourthImage} alt="" />
             </div>
 
-            <div className="mt-[280px] ml-[-40px]">
-              <img alt=" " src={eigthLogo} className="w-[100px]" />
+            <div className="md:mt-[280px] s:mt-[140px] ml-[-40px] s:mr-2 md:mr-0">
+              <img
+                alt=" "
+                src={eigthLogo}
+                className="md:w-[100px] s:w-[80px]"
+              />
             </div>
           </div>
-          <div className="pl-4 pt-24">
+          <div className="pl-4 md:pt-24 s:pt-12">
             <p className="font-semibold">Factor in installation costs:</p>
             <p>
               The expenses for installing something include the cost of labor,
@@ -211,20 +227,24 @@ export default function FourthPage() {
               still important to keep them in mind.
             </p>
           </div>
-          <div className="flex flex-row mt-8">
-            <div className="ml-56 s:ml-[150px]">
-              <img src={ninthLogo} className="w-[100px]" alt="" />
+          <div className="flex flex-row mt-8 sm:ml-8 md:-ml-20 xl2:ml-20">
+            <div className="ml-56 md:ml-[150px] s:ml-5">
+              <img src={ninthLogo} className="md:w-[100px] s:w-[80px]" alt="" />
             </div>
 
-            <div className="max-w-[450px] mt-12 ml-[-40px]  ">
+            <div className="md:max-w-[450px] s:max-w-[250px] md:mt-12 s:mt-6 m:mt-8 ml-[-40px]">
               <img src={fifthImage} alt="" />
             </div>
 
-            <div className="mt-[280px] ml-[-40px]">
-              <img src={tenthLogo} alt="" className="w-[100px]" />
+            <div className="md:mt-[280px] s:mt-[140px] ml-[-40px] s:mr-2 md:mr-0">
+              <img
+                alt=" "
+                src={tenthLogo}
+                className="md:w-[100px] s:w-[80px]"
+              />
             </div>
           </div>
-          <div className="pl-4 pt-24">
+          <div className="pl-4 md:pt-24 s:pt-12">
             <p className="font-semibold">Consult with solar experts:</p>
             <p>
               If you require assistance, consider consulting solar energy
