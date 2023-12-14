@@ -1,5 +1,7 @@
 import ContentRouter from "./Components/ContentRouter/ContentRouter";
-// import Dashboard from "./Components/Dashboard/Dashboard";
+import VendorDetaillls from "./Components/VendorDetaillls/VendorDetaillls";
+import ProductDetails from "./Components/VendorDetails/Vendordetails";
+import Dashboard from "./Components/Dashboard/Dashboard";
 
 function App() {
   return (
@@ -7,9 +9,11 @@ function App() {
       {/* <VendorProfilee />  */}
       {/* <ReviewRating /> */}
       {/* <OptionCitizen /> */}
-      {/* <Dashboard /> */}
+      <Dashboard />
       {/* <Vscode /> */}
-      <ContentRouter />
+      {/* <ContentRouter /> */}
+      {/* <ProductDetails /> */}
+      {/* <VendorDetaillls /> */}
     </div>
   );
 }

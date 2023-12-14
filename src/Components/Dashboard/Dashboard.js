@@ -10,6 +10,7 @@ import "react-datepicker/dist/react-datepicker.css";
 
 function Dashboard() {
   const [selectedDate, setSelectedDate] = useState(null);
+  const [showSidebar, setShowSidebar] = useState(false);
 
   const handleDateChange = (date) => {
     setSelectedDate(date);
@@ -17,7 +18,17 @@ function Dashboard() {
 
   return (
     <div className="main flex">
-      <div className="sidebar h-screen s:break-words hidden lg:block lg:w-[32%] xl2:w-[20%]">
+      <div className="block lg:hidden absolute z-50 ml-5 mt-3">
+        <button onClick={() => setShowSidebar(!showSidebar)}>
+          {/* Insert your hamburger menu icon here */}
+          <i className="fas fa-bars fa-xl"></i>
+        </button>
+      </div>
+      <div
+        className={`sidebar s:absolute lg:relative top-0 left-0 ${
+          showSidebar ? "block" : "hidden"
+        } lg:block s:w-[50%] s:h-[90%] md:w-[25%] md:h-[92%]  z-40 s:bg-white lg:bg-white h-screen s:break-words lg:w-[32%] xl2:w-[20%]`}
+      >
         <ul className="flex flex-col gap-y-5 pt-28 pl-6 ">
           <li className="flex items-center gap-x-2">
             <img src={profile} alt="" className="w-7" />
