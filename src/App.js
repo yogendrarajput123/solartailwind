@@ -1,4 +1,5 @@
-import Dashboard from "./Components/Dashboard/Dashboard";
+import ContentRouter from "./Components/ContentRouter/ContentRouter";
+// import Dashboard from "./Components/Dashboard/Dashboard";
 
 function App() {
   return (
@@ -6,9 +7,9 @@ function App() {
       {/* <VendorProfilee />  */}
       {/* <ReviewRating /> */}
       {/* <OptionCitizen /> */}
-      <Dashboard />
+      {/* <Dashboard /> */}
       {/* <Vscode /> */}
-      {/* <ContentRouter /> */}
+      <ContentRouter />
     </div>
   );
 }
