@@ -52,10 +52,7 @@ const ProductDetails = () => {
         </div>
 
         <div className={styles.grayBackground}>
-
           <div className="vendordetails">
-    
-
             <div className="flex justify-start  ">
               <button
                 type="button"

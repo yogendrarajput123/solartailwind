@@ -1,19 +1,19 @@
 import ContentRouter from "./Components/ContentRouter/ContentRouter";
-import VendorDetaillls from "./Components/VendorDetaillls/VendorDetaillls";
-import ProductDetails from "./Components/VendorDetails/Vendordetails";
 import Dashboard from "./Components/Dashboard/Dashboard";
+import OptionCitizen from "./Components/OptionCitizen/OptionCitizen";
+import ReviewRating from "./Components/ReviewRating/ReviewRating";
+import VendorProfilee from "./Components/Vendor/VendorProfilee";
+import ProductDetails from "./Components/VendorDetails/Vendordetails";
 
 function App() {
   return (
     <div>
-      {/* <VendorProfilee />  */}
-      {/* <ReviewRating /> */}
-      {/* <OptionCitizen /> */}
-      <Dashboard />
-      {/* <Vscode /> */}
+      {/* <Dashboard /> */}
       {/* <ContentRouter /> */}
       {/* <ProductDetails /> */}
-      {/* <VendorDetaillls /> */}
+      {/* <OptionCitizen /> */}
+      {/* <ReviewRating /> */}
+      <VendorProfilee />
     </div>
   );
 }
