@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "@fortawesome/fontawesome-free/css/all.css";
 import { BrowserRouter as Router } from "react-router-dom";
+import "typeface-montserrat";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
