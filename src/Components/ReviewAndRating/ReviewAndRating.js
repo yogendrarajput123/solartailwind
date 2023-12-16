@@ -22,25 +22,35 @@ const ReviewAndRating = () => {
       <div
         className={`sidebar s:absolute lg:relative top-0 left-0 ${
           showSidebar ? "block" : "hidden"
-        } lg:block s:w-[50%] s:h-[90%] md:w-[25%] md:h-[100vh]  z-40  s:bg-white lg:bg-white h-screen s:break-words lg:w-[20%] xl2:w-[17%]`}
+        } lg:block s:w-[50%] s:h-[100%] md:w-[25%] md:h-[100vh]  z-40  s:bg-blue-200 lg:bg-white h-screen s:break-words lg:w-[20%] xl2:w-[17%]`}
       >
         <ul className="flex flex-col gap-y-5 pt-28 pl-6 ">
-          <li className="flex items-center gap-x-2  hover:bg-[#235688] hover:p-2 ">
+          <li className="flex items-center gap-x-2 hover:text-white  hover:bg-[#235688] hover:p-2 ">
             <img src={profile} alt="" className="w-7" />
             Profile
           </li>
-          <li className="flex items-center gap-x-2 hover:bg-[#235688] hover:p-2 ">
+          <li className="flex items-center gap-x-2 hover:text-white hover:bg-[#235688] hover:p-2 ">
             <img src={notificationVendor} alt="" className="w-7" />
             Notification
           </li>
-          <li className="flex items-center gap-x-2 hover:bg-[#235688] hover:p-2 ">
+          <li className="flex items-center gap-x-2 hover:text-white hover:bg-[#235688] hover:p-2 ">
             <img src={product} alt="" className="w-7" />
             Product
           </li>
-          <li className="flex items-center gap-x-2 break-words hover:bg-[#235688] hover:p-2 ">
-            <img src={userEng} alt="" className="w-7" />
-            User Engagement
-          </li>
+          <div className="space-y-3 lg:hidden">
+            <li className="flex items-center gap-x-2 text-sm s:-ml-2 hover:text-white hover:bg-[#235688] hover:p-1 ">
+              <i className="fa-hand-point-left fa-solid" />
+              Previous Product
+            </li>
+            <li className="flex items-center gap-x-2 s:-ml-2  text-sm hover:text-white hover:bg-[#235688] hover:p-1 ">
+              <i class="fa-solid fa-cart-plus"></i>
+              Add New Product
+            </li>
+            <li className="flex items-center gap-x-2 text-sm s:-ml-2 hover:text-white hover:bg-[#235688] hover:p-1 ">
+              <i class="fa-solid fa-face-smile"></i>
+              Review & Ratings
+            </li>
+          </div>
 
           <li className="flex items-center gap-x-2 break-words mt-[570px] hover:bg-[#235688] hover:p-2 hover:w-36">
             <i className="fa-arrow-left-long fa-solid">&emsp; Log Out</i>
