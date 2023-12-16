@@ -1,9 +1,11 @@
 import ContentRouter from "./Components/ContentRouter/ContentRouter";
 import Dashboard from "./Components/Dashboard/Dashboard";
+import Dashboardd from "./Components/Home/Home";
 import OptionCitizen from "./Components/OptionCitizen/OptionCitizen";
 import ReviewRating from "./Components/ReviewRating/ReviewRating";
-import VendorProfilee from "./Components/Vendor/VendorProfilee";
 import ProductDetails from "./Components/VendorDetails/Vendordetails";
+import VendorInput from "./Components/VendorProfile/VendorInput";
+import VendorProfile from "./Components/VendorProfile/VendorProfile";
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       {/* <ProductDetails /> */}
       {/* <OptionCitizen /> */}
       {/* <ReviewRating /> */}
-      <VendorProfilee />
+      {/* <Dashboardd /> */}
+      {/* <VendorProfile />      */}
+      <VendorInput />
     </div>
   );
 }
