@@ -3,6 +3,8 @@ import Dashboard from "./Components/Dashboard/Dashboard";
 import Contact from "./Components/FirebaseTut/Contact";
 import Dashboardd from "./Components/Home/Home";
 import OptionCitizen from "./Components/OptionCitizen/OptionCitizen";
+import Likes from "./Components/ReviewAndRating/Likes";
+import Rating from "./Components/ReviewAndRating/Rating";
 import ReviewAndRating from "./Components/ReviewAndRating/ReviewAndRating";
 import ReviewRating from "./Components/ReviewRating/ReviewRating";
 import ProductDetails from "./Components/VendorDetails/Vendordetails";
@@ -22,7 +24,9 @@ function App() {
       {/* <VendorProfile />      */}
       {/* <VendorInput /> */}
       {/* <Contact /> */}
-      <ReviewAndRating />
+      {/* <ReviewAndRating /> */}
+      <Rating />
+      {/* <Likes /> */}
     </div>
   );
 }
