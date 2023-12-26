@@ -1,16 +1,6 @@
-import ContentRouter from "./Components/ContentRouter/ContentRouter";
-import Dashboard from "./Components/Dashboard/Dashboard";
-import Contact from "./Components/FirebaseTut/Contact";
-import Dashboardd from "./Components/Home/Home";
-import OptionCitizen from "./Components/OptionCitizen/OptionCitizen";
-import Likes from "./Components/ReviewAndRating/Likes";
-import Rating from "./Components/ReviewAndRating/Rating";
 import ReviewAndRating from "./Components/ReviewAndRating/ReviewAndRating";
 import ReviewRating from "./Components/ReviewRating/ReviewRating";
-import ProductDetails from "./Components/VendorDetails/Vendordetails";
-import VendorInput from "./Components/VendorProfile/VendorInput";
-import VendorProfile from "./Components/VendorProfile/VendorProfile";
-import "typeface-montserrat";
+
 
 function App() {
   return (
@@ -20,13 +10,17 @@ function App() {
       {/* <ProductDetails /> */}
       {/* <OptionCitizen /> */}
       {/* <ReviewRating /> */}
-      {/* <Dashboardd /> */}
+      {/* <Dashboard /> */}
       {/* <VendorProfile />      */}
       {/* <VendorInput /> */}
       {/* <Contact /> */}
-      {/* <ReviewAndRating /> */}
-      <Rating />
+      <ReviewAndRating />
+      {/* <Rating /> */}
       {/* <Likes /> */}
+      {/* <Notification /> */}
+      {/* <NotificationOnProduct /> */}
+      {/* <Home /> */}
+      {/* <VendorLikes /> */}
     </div>
   );
 }

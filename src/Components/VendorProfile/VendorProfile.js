@@ -4,6 +4,7 @@ import notificationVendor from "./Images/notificationVendor.png";
 import product from "./Images/product.png";
 import userEng from "./Images/userEng.png";
 import person from "./Images/person.png";
+import { Link } from "react-router-dom";
 
 const VendorProfile = () => {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -41,7 +42,7 @@ const VendorProfile = () => {
       </div>
 
       <div className="content h-full s:w-[100%] lg:w-[80%] xl2:w-[83%]">
-        <div className="navbar md:w-[100%] h-[15%] s:h-14 md:h-[15%] bg-white flex justify-end items items-center gap-x-5">
+        <div className="navbar md:w-[100%] md:h-[15%] bg-white flex justify-end items items-center gap-x-5 m-2">
           <img
             className="md:w-10 md:h-12 s:w-12 s:h-10 md:block"
             src={person}
@@ -56,15 +57,17 @@ const VendorProfile = () => {
         </div>
 
         <div className="middle-content bg-blue-100 w-full h-[100%] md:p-[30px] s:p-[20px]">
-          <div className="form bg-white p-6 flex s:flex-col md:flex-row md:ml-0 md:mr-0 m:ml-8 m:mr-8">
+          <Link to="/VendorInput" className="">
+            <div className="fourth-column s:ml-[249px] z-50 sm:ml-[320px] m:ml-[270px] xl2:ml-[950px] md:ml-[650px] md:mt-24 s:mt-12  cursor-pointer">
+              <i className="fa-regular fa-pen-to-square fa-xl"></i>
+            </div>
+          </Link>
+          <div className="form bg-white p-8 flex s:flex-col md:flex-row md:ml-0 md:mr-0 m:ml-8 m:mr-8 md:-mt-28 s:-mt-16">
             <div className="first-column sm:ml-6 md:-ml-8 xl2:ml-8">
               <div className="">
                 <p className="font-bold text-2xl md:mt-10 md:ml-10 text-blue-900">
                   Profile
                 </p>
-              </div>
-              <div className="md:hidden">
-                <i className="fa-regular fa-pen-to-square fa-xl s:ml-48 sm:ml-60"></i>
               </div>
 
               <div
@@ -86,8 +89,8 @@ const VendorProfile = () => {
             <div className="second-column md:mt-16 md:ml-7 sm:ml-8 xl2:ml-14">
               <p className="hidden md:block">
                 <i className="fa-solid fa-user"></i>&emsp; Profile
-                
               </p>
+
               <div className="mt-20">
                 <p className="text-xl font-semibold">Shop Name</p>
                 <input
@@ -183,10 +186,6 @@ const VendorProfile = () => {
                   Update
                 </button>
               </div>
-            </div>
-
-            <div className="fourth-column mt-14 md:ml-0 lg:ml-3 xl2:ml-8 hidden md:block">
-              <i className="fa-regular fa-pen-to-square fa-xl"></i>
             </div>
           </div>
         </div>
