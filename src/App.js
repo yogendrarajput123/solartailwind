@@ -23,11 +23,11 @@ function App() {
       {/* <Notification /> */}
       {/* <Rating /> */}
       {/* <Likes /> */}
-      <Notification />
+      {/* <Notification /> */}
       {/* <NotificationOnProduct /> */}
       {/* <Home /> */}
       {/* <VendorLikes /> */}
-      {/* <VendorCards/> */}
+      <VendorCards/>
     </div>
   );
 }
