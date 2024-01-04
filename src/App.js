@@ -5,6 +5,7 @@ import Rating from "./Components/ReviewAndRating/Rating";
 import Likes from "./Components/ReviewAndRating/Likes";
 import Notification from "./Components/Notification/Notification";
 import VendorCards from "./Components/VendorCards/VendorCards";
+import Calculator from "./Components/Calculator/Calculator";
 
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
       {/* <NotificationOnProduct /> */}
       {/* <Home /> */}
       {/* <VendorLikes /> */}
-      <VendorCards/>
+      {/* <VendorCards/> */}
+      <Calculator />
     </div>
   );
 }
