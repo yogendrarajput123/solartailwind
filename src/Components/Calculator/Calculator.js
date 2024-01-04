@@ -59,7 +59,7 @@ const Calculator = () => {
             placeholder="8"
             className="rounded-md mt-3 p-2 border border-gray-200 md:w-[20%]"
           />
-          <span className="ml-4 text-[#626262]">Rs. /kwh</span>
+          <span className="ml-2 text-[#626262]">Rs. /kwh</span>
         </div>
         <div className="Button-Section flex justify-center">
           <button className="bg-[#E87800] text-white p-2 rounded-sm md:w-[20%] s:w-[50%] mt-8 text-center ">
