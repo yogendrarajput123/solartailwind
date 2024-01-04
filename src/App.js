@@ -1,5 +1,10 @@
+import { Route, Routes } from "react-router-dom";
 import ReviewAndRating from "./Components/ReviewAndRating/ReviewAndRating";
 import ReviewRating from "./Components/ReviewRating/ReviewRating";
+import Rating from "./Components/ReviewAndRating/Rating";
+import Likes from "./Components/ReviewAndRating/Likes";
+import Notification from "./Components/Notification/Notification";
+import VendorCards from "./Components/VendorCards/VendorCards";
 
 
 function App() {
@@ -14,13 +19,15 @@ function App() {
       {/* <VendorProfile />      */}
       {/* <VendorInput /> */}
       {/* <Contact /> */}
-      <ReviewAndRating />
+      {/* <ReviewAndRating /> */}
+      {/* <Notification /> */}
       {/* <Rating /> */}
       {/* <Likes /> */}
-      {/* <Notification /> */}
+      <Notification />
       {/* <NotificationOnProduct /> */}
       {/* <Home /> */}
       {/* <VendorLikes /> */}
+      {/* <VendorCards/> */}
     </div>
   );
 }

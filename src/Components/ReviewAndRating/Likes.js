@@ -51,7 +51,7 @@ const Likes = () => {
             </li>
           </div>
 
-            <li className="flex items-center gap-x-2 break-words  xl2:mt-[660px] lg:mt-[720px] lg:mb hover:bg-[#235688] rounded m:hover:p-2 m:hover:w-36 s:hover:w-32 s:hover:p-1">
+          <li className="flex items-center gap-x-2 break-words  xl2:mt-[660px] lg:mt-[720px] lg:mb hover:bg-[#235688] rounded m:hover:p-2 m:hover:w-36 s:hover:w-32 s:hover:p-1">
             <i className="fa-arrow-left-long fa-solid">&emsp; Log Out</i>
           </li>
         </ul>
