@@ -22,7 +22,7 @@ export default function VendorCards() {
           <img src={nav6} alt="" className="w-[13%]" />
           <img src={nav7} alt="" className="w-[7%]" />
 
-          <button className="text-red-600  font-semibold ">Log Out</button>
+          <button className="text-red-600 font-semibold">Log Out</button>
         </div>
       </nav>
 
@@ -53,7 +53,7 @@ export default function VendorCards() {
                       <img
                         src={like}
                         alt=""
-                        className="w-5 h-5 md:-ml-10 lg:ml-0 s:-ml-20"
+                        className="w-5 h-5 md:-ml-10 lg:ml-0 s:-ml-20 cursor-pointer"
                       />
                     </h3>
 
@@ -75,7 +75,7 @@ export default function VendorCards() {
                   </div>
                 </div>
               </div>
-              <div className="cards-1 mb-10  p-4 bg-gray-100 border-2 s:ml-3 md:ml-0 border-[#E87800] rounded-sm shadow md:w-[40%] s:w-[92%]">
+              <div className="cards-2 mb-10  p-4 bg-gray-100 border-2 s:ml-3 md:ml-0 border-[#E87800] rounded-sm shadow md:w-[40%] s:w-[92%]">
                 <div className=" flex gap-2 ">
                   <div className="w-[50%] s:break-words">
                     <img className="w-[150px]" src={card1} alt="" />
@@ -94,7 +94,7 @@ export default function VendorCards() {
                       <img
                         src={like}
                         alt=""
-                        className="w-5 h-5 md:-ml-10 lg:ml-0 s:-ml-20"
+                        className="w-5 h-5 md:-ml-10 lg:ml-0 s:-ml-20 cursor-pointer"
                       />
                     </h3>
 
@@ -119,7 +119,7 @@ export default function VendorCards() {
             </div>
 
             <div className="flex md:flex-row s:flex-col justify-evenly">
-              <div className="cards-1 mb-10  p-4 bg-gray-100 border-2 s:ml-3 md:ml-0 border-[#E87800] rounded-sm shadow md:w-[40%] s:w-[92%]">
+              <div className="cards-3 mb-10  p-4 bg-gray-100 border-2 s:ml-3 md:ml-0 border-[#E87800] rounded-sm shadow md:w-[40%] s:w-[92%]">
                 <div className=" flex gap-2 ">
                   <div className="w-[50%] s:break-words">
                     <img className="w-[150px]" src={card1} alt="" />
@@ -138,7 +138,7 @@ export default function VendorCards() {
                       <img
                         src={like}
                         alt=""
-                        className="w-5 h-5 md:-ml-10 lg:ml-0 s:-ml-20"
+                        className="w-5 h-5 md:-ml-10 lg:ml-0 s:-ml-20 cursor-pointer"
                       />
                     </h3>
 
@@ -160,7 +160,7 @@ export default function VendorCards() {
                   </div>
                 </div>
               </div>
-              <div className="cards-1 mb-10  p-4 bg-gray-100 border-2 s:ml-3 md:ml-0 border-[#E87800] rounded-sm shadow md:w-[40%] s:w-[92%]">
+              <div className="cards-4 mb-10  p-4 bg-gray-100 border-2 s:ml-3 md:ml-0 border-[#E87800] rounded-sm shadow md:w-[40%] s:w-[92%]">
                 <div className=" flex gap-2 ">
                   <div className="w-[50%] s:break-words">
                     <img className="w-[150px]" src={card1} alt="" />
@@ -179,7 +179,7 @@ export default function VendorCards() {
                       <img
                         src={like}
                         alt=""
-                        className="w-5 h-5 md:-ml-10 lg:ml-0 s:-ml-20"
+                        className="w-5 h-5 md:-ml-10 lg:ml-0 s:-ml-20 cursor-pointer"
                       />
                     </h3>
 
@@ -203,7 +203,7 @@ export default function VendorCards() {
               </div>
             </div>
             <div className="flex md:flex-row s:flex-col justify-evenly">
-              <div className="cards-1 mb-10  p-4 bg-gray-100 border-2 s:ml-3 md:ml-0 border-[#E87800] rounded-sm shadow md:w-[40%] s:w-[92%]">
+              <div className="cards-5 mb-10  p-4 bg-gray-100 border-2 s:ml-3 md:ml-0 border-[#E87800] rounded-sm shadow md:w-[40%] s:w-[92%]">
                 <div className=" flex gap-2 ">
                   <div className="w-[50%] s:break-words">
                     <img className="w-[150px]" src={card1} alt="" />
@@ -222,7 +222,7 @@ export default function VendorCards() {
                       <img
                         src={like}
                         alt=""
-                        className="w-5 h-5 md:-ml-10 lg:ml-0 s:-ml-20"
+                        className="w-5 h-5 md:-ml-10 lg:ml-0 s:-ml-20 cursor-pointer"
                       />
                     </h3>
 
@@ -244,7 +244,7 @@ export default function VendorCards() {
                   </div>
                 </div>
               </div>
-              <div className="cards-1 mb-10  p-4 bg-gray-100 border-2 s:ml-3 md:ml-0 border-[#E87800] rounded-sm shadow md:w-[40%] s:w-[92%]">
+              <div className="cards-6 mb-10  p-4 bg-gray-100 border-2 s:ml-3 md:ml-0 border-[#E87800] rounded-sm shadow md:w-[40%] s:w-[92%]">
                 <div className=" flex gap-2 ">
                   <div className="w-[50%] s:break-words">
                     <img className="w-[150px]" src={card1} alt="" />
@@ -263,7 +263,7 @@ export default function VendorCards() {
                       <img
                         src={like}
                         alt=""
-                        className="w-5 h-5 md:-ml-10 lg:ml-0 s:-ml-20"
+                        className="w-5 h-5 md:-ml-10 lg:ml-0 s:-ml-20 cursor-pointer"
                       />
                     </h3>
 
@@ -290,7 +290,7 @@ export default function VendorCards() {
         </div>
       </div>
 
-      <div className="bg-gray-200 w-full h-auto p-10 -mb-10">
+      <div className="Footer-Section bg-gray-200 w-full h-auto p-10 -mb-10">
         <div className="flex s:flex-col md:flex-row s:space-y-8 md:space-y-0 justify-between">
           <form className="md:w-[90%] s:w-full">
             <div className="relative">
@@ -316,7 +316,7 @@ export default function VendorCards() {
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                 <i className="fas fa-envelope text-gray-400"></i>
               </div>
-              <div className="absolute inset-y-0 left-0 md:ml-[43%] s:ml-[85%] flex items-center pointer-events-none">
+              <div className="absolute inset-y-0 left-0 md:ml-[43%] s:ml-[85%] flex items-center cursor-pointer">
                 <i className="fa-solid fa-eye-slash text-gray-400"></i>
               </div>
             </div>
