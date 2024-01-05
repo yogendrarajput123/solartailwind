@@ -29,9 +29,9 @@ function App() {
       {/* <NotificationOnProduct /> */}
       {/* <Home /> */}
       {/* <VendorLikes /> */}
-      {/* <VendorCards/> */}
+      <VendorCards/>
       {/* <Calculator /> */}
-      <ResolutionForm />
+      {/* <ResolutionForm /> */}
     </div>
   );
 }

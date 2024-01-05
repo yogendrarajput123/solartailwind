@@ -12,9 +12,9 @@ import like from "../VendorCards/images/like.png";
 export default function VendorCards() {
   return (
     <main className="bg-[#8A8F93] w-full h-auto mb-10">
-      <nav className="bg-white w-full h-[15%]">
-        <div className="flex lg:gap-x-10 md:gap-x-7 justify-center items-center ">
-          <img src={nav1} alt="" className="w-[6%]" />
+      <nav className="bg-white w-full h-[15%] md:p-2 s:py-4">
+        <div className="flex lg:gap-x-10 md:gap-x-7 s:gap-x-1.5 justify-center items-center ">
+          <img src={nav1} alt="" className="w-[6%] " />
           <img src={nav2} alt="" className="w-[7%]" />
           <img src={nav3} alt="" className="w-[16%]" />
           <img src={nav4} alt="" className="w-[8%]" />
@@ -29,14 +29,14 @@ export default function VendorCards() {
       <div className="bg-[#8A8F93] w-full">
         <div className="bg-white w-[85%]  mx-auto my-10">
           <div>
-            <div className="p-10">
+            <div className="md:p-10 s:p-5 s:text-center md:text-start">
               <h1 className="text-2xl font-semibold">Vendor Cards</h1>
             </div>
 
             <div className="flex md:flex-row s:flex-col justify-evenly">
-              <div className="cards-1 mb-10  p-4 bg-gray-100 border-2 border-[#E87800] rounded-sm shadow w-[40%]">
+              <div className="cards-1 mb-10  p-4 bg-gray-100 border-2 s:ml-[4%] md:ml-0 border-[#E87800] rounded-sm shadow md:w-[40%] s:w-[92%]">
                 <div className=" flex gap-2 ">
-                  <div className="w-[50%] md:break-words">
+                  <div className="w-[50%] s:break-words">
                     <img className="w-[150px]" src={card1} alt="" />
 
                     <h3 className="text-[14px] text-[#99A3AD] mt-8">
@@ -53,7 +53,7 @@ export default function VendorCards() {
                       <img
                         src={like}
                         alt=""
-                        className="w-5 h-5 md:-ml-10 lg:ml-0"
+                        className="w-5 h-5 md:-ml-10 lg:ml-0 s:-ml-20"
                       />
                     </h3>
 
@@ -75,10 +75,10 @@ export default function VendorCards() {
                   </div>
                 </div>
               </div>
-              <div className="cards-2 mb-10  p-4 bg-gray-100 border-2 border-[#E87800] rounded-sm shadow w-[40%]">
-                <div className=" flex gap-2">
-                  <div className="w-[50%] md:break-words">
-                    <img className="w-[150px]" src={card2} alt="" />
+              <div className="cards-1 mb-10  p-4 bg-gray-100 border-2 s:ml-3 md:ml-0 border-[#E87800] rounded-sm shadow md:w-[40%] s:w-[92%]">
+                <div className=" flex gap-2 ">
+                  <div className="w-[50%] s:break-words">
+                    <img className="w-[150px]" src={card1} alt="" />
 
                     <h3 className="text-[14px] text-[#99A3AD] mt-8">
                       Phone No.
@@ -94,7 +94,7 @@ export default function VendorCards() {
                       <img
                         src={like}
                         alt=""
-                        className="w-5 h-5 md:-ml-10 lg:ml-0"
+                        className="w-5 h-5 md:-ml-10 lg:ml-0 s:-ml-20"
                       />
                     </h3>
 
@@ -118,10 +118,10 @@ export default function VendorCards() {
               </div>
             </div>
 
-            <div className="flex justify-evenly">
-              <div className="cards-1 mb-10  p-4 bg-gray-100 border-2 border-[#E87800] rounded-sm shadow w-[40%]">
+            <div className="flex md:flex-row s:flex-col justify-evenly">
+              <div className="cards-1 mb-10  p-4 bg-gray-100 border-2 s:ml-3 md:ml-0 border-[#E87800] rounded-sm shadow md:w-[40%] s:w-[92%]">
                 <div className=" flex gap-2 ">
-                  <div className="w-[50%] md:break-words">
+                  <div className="w-[50%] s:break-words">
                     <img className="w-[150px]" src={card1} alt="" />
 
                     <h3 className="text-[14px] text-[#99A3AD] mt-8">
@@ -138,7 +138,7 @@ export default function VendorCards() {
                       <img
                         src={like}
                         alt=""
-                        className="w-5 h-5 md:-ml-10 lg:ml-0"
+                        className="w-5 h-5 md:-ml-10 lg:ml-0 s:-ml-20"
                       />
                     </h3>
 
@@ -160,10 +160,10 @@ export default function VendorCards() {
                   </div>
                 </div>
               </div>
-              <div className="cards-2 mb-10  p-4 bg-gray-100 border-2 border-[#E87800] rounded-sm shadow w-[40%]">
-                <div className=" flex gap-2">
-                  <div className="w-[50%] md:break-words">
-                    <img className="w-[150px]" src={card2} alt="" />
+              <div className="cards-1 mb-10  p-4 bg-gray-100 border-2 s:ml-3 md:ml-0 border-[#E87800] rounded-sm shadow md:w-[40%] s:w-[92%]">
+                <div className=" flex gap-2 ">
+                  <div className="w-[50%] s:break-words">
+                    <img className="w-[150px]" src={card1} alt="" />
 
                     <h3 className="text-[14px] text-[#99A3AD] mt-8">
                       Phone No.
@@ -179,7 +179,7 @@ export default function VendorCards() {
                       <img
                         src={like}
                         alt=""
-                        className="w-5 h-5 md:-ml-10 lg:ml-0"
+                        className="w-5 h-5 md:-ml-10 lg:ml-0 s:-ml-20"
                       />
                     </h3>
 
@@ -202,10 +202,10 @@ export default function VendorCards() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-evenly">
-              <div className="cards-1 mb-10  p-4 bg-gray-100 border-2 border-[#E87800] rounded-sm shadow w-[40%]">
+            <div className="flex md:flex-row s:flex-col justify-evenly">
+              <div className="cards-1 mb-10  p-4 bg-gray-100 border-2 s:ml-3 md:ml-0 border-[#E87800] rounded-sm shadow md:w-[40%] s:w-[92%]">
                 <div className=" flex gap-2 ">
-                  <div className="w-[50%] md:break-words">
+                  <div className="w-[50%] s:break-words">
                     <img className="w-[150px]" src={card1} alt="" />
 
                     <h3 className="text-[14px] text-[#99A3AD] mt-8">
@@ -222,7 +222,7 @@ export default function VendorCards() {
                       <img
                         src={like}
                         alt=""
-                        className="w-5 h-5 md:-ml-10 lg:ml-0"
+                        className="w-5 h-5 md:-ml-10 lg:ml-0 s:-ml-20"
                       />
                     </h3>
 
@@ -244,10 +244,10 @@ export default function VendorCards() {
                   </div>
                 </div>
               </div>
-              <div className="cards-2 mb-10  p-4 bg-gray-100 border-2 border-[#E87800] rounded-sm shadow w-[40%]">
-                <div className=" flex gap-2">
-                  <div className="w-[50%] md:break-words">
-                    <img className="w-[150px]" src={card2} alt="" />
+              <div className="cards-1 mb-10  p-4 bg-gray-100 border-2 s:ml-3 md:ml-0 border-[#E87800] rounded-sm shadow md:w-[40%] s:w-[92%]">
+                <div className=" flex gap-2 ">
+                  <div className="w-[50%] s:break-words">
+                    <img className="w-[150px]" src={card1} alt="" />
 
                     <h3 className="text-[14px] text-[#99A3AD] mt-8">
                       Phone No.
@@ -263,7 +263,7 @@ export default function VendorCards() {
                       <img
                         src={like}
                         alt=""
-                        className="w-5 h-5 md:-ml-10 lg:ml-0"
+                        className="w-5 h-5 md:-ml-10 lg:ml-0 s:-ml-20"
                       />
                     </h3>
 
@@ -291,12 +291,12 @@ export default function VendorCards() {
       </div>
 
       <div className="bg-gray-200 w-full h-auto p-10 -mb-10">
-        <div className="flex justify-between">
-          <form className="w-[90%]">
+        <div className="flex s:flex-col md:flex-row s:space-y-8 md:space-y-0 justify-between">
+          <form className="md:w-[90%] s:w-full">
             <div className="relative">
               <input
                 type="text"
-                className="pl-10 pr-4 py-2 border rounded-sm w-[50%]"
+                className="pl-10 pr-4 py-2 border rounded-sm md:w-[50%] s:w-[100%]"
                 placeholder="Enter your email"
               />
               <div
@@ -310,24 +310,24 @@ export default function VendorCards() {
             <div className="relative mt-5">
               <input
                 type="text"
-                className="pl-10 pr-4 py-2 border rounded-sm w-[50%]"
+                className="pl-10 pr-4 py-2 border rounded-sm md:w-[50%] s:w-[100%]"
                 placeholder="Enter Password"
               />
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                 <i className="fas fa-envelope text-gray-400"></i>
               </div>
-              <div className="absolute inset-y-0 left-0 ml-[43%] flex items-center pointer-events-none">
+              <div className="absolute inset-y-0 left-0 md:ml-[43%] s:ml-[85%] flex items-center pointer-events-none">
                 <i className="fa-solid fa-eye-slash text-gray-400"></i>
               </div>
             </div>
 
             <div className="">
-              <button className="bg-[#23568845] p-2 text-black font-semibold mt-5 w-[50%]">
+              <button className="bg-[#23568845] p-2 text-black font-semibold mt-5 md:w-[50%] s:w-[100%]">
                 Log In
               </button>
             </div>
           </form>
-          <div className="image-section flex space-y-2 mr-20 space-x-20 w-[60%]">
+          <div className="image-section flex space-y-2 lg:mr-20 s:mr-10 lg:space-x-20 md:space-x-7 s:space-x-6 md:w-[60%] s:w-[100%]">
             <div className="text-center">
               <img src={nav7} alt="" className="w-[100px] mx-auto" />
               <p className="mt-4 text-[14px]">
@@ -340,9 +340,17 @@ export default function VendorCards() {
               <p className="text-[#235688] text-[14px]">Smart City Indore</p>
             </div>
             <div className="space-y-10">
-              <img src={nav2} alt="" className="w-[100px]" />
-              <img src={nav6} alt="" className="w-[100px]" />
-              <img src={nav3} alt="" className="w-[130px]" />
+              <img src={nav2} alt="" className="md:w-[100px] s:w-[150px]" />
+              <img
+                src={nav6}
+                alt=""
+                className="md:w-[100px] md:h-auto s:w-[200px] s:h-[25px]"
+              />
+              <img
+                src={nav3}
+                alt=""
+                className="md:w-[100px] md:h-[20px] s:w-[220px] s:h-[25px]"
+              />
             </div>
           </div>
         </div>
