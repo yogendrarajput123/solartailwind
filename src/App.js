@@ -6,6 +6,7 @@ import Likes from "./Components/ReviewAndRating/Likes";
 import Notification from "./Components/Notification/Notification";
 import VendorCards from "./Components/VendorCards/VendorCards";
 import Calculator from "./Components/Calculator/Calculator";
+import ResolutionForm from "./Components/ResolutionForm/ResolutionForm";
 
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
       {/* <Home /> */}
       {/* <VendorLikes /> */}
       {/* <VendorCards/> */}
-      <Calculator />
+      {/* <Calculator /> */}
+      <ResolutionForm />
     </div>
   );
 }
