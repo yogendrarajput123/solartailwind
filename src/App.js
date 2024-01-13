@@ -7,7 +7,9 @@ import Notification from "./Components/Notification/Notification";
 import VendorCards from "./Components/VendorCards/VendorCards";
 import Calculator from "./Components/Calculator/Calculator";
 import ResolutionForm from "./Components/ResolutionForm/ResolutionForm";
-
+import OptionCitizen from "./Components/OptionCitizen/OptionCitizen";
+import GreenCertiRequest from "./Components/GreenCertificateRequest/GreenCertiRequest";
+import VendorLikes from "./Components/VendorLikesPage.js/VendorLikes";
 
 function App() {
   return (
@@ -28,10 +30,11 @@ function App() {
       {/* <Notification /> */}
       {/* <NotificationOnProduct /> */}
       {/* <Home /> */}
-      {/* <VendorLikes /> */}
-      <VendorCards/>
+      <VendorLikes />
+      {/* <VendorCards/> */}
       {/* <Calculator /> */}
       {/* <ResolutionForm /> */}
+      {/* <GreenCertiRequest /> */}
     </div>
   );
 }

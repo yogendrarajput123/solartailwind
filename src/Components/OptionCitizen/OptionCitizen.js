@@ -9,69 +9,26 @@ import close from "./Images/close.png";
 
 function OptionCitizen() {
   return (
-    <div className="">
-      <div
-        className="Container grid grid-rows-3 h-screen w-auto lg:h-full
-                        md:h-[650px] sm:h-[1150px] m:h-[1300px] s:h-[1510px]
-                         bg-[#D3D8DC] max-w-[2560] min-w-[1200px]"
-      >
-        <div className=" first grid justify-end mr-8 space-y-5 xl2:mr-20 md:mr-12 md:space-y-36">
-          <div className="">
-            <img className="w-[70px] mt-10" src={close} alt="" />
-          </div>
-
-          <div>
-            <img
-              className="w-[70px] sm:mt-[-120px] m:mt-[-145px] s:mt-[-175px]"
-              src={notification}
-              alt=""
-            />
-          </div>
+    <div className="Container w-full md:h-[100vh] h-auto bg-[#D3D8DC] p-5">
+      <div className="Buttons-Section flex md:flex-col items-end cursor-pointer justify-end md:space-y-4 space-x-2 mr-[3%]">
+        <img src={close} alt="" className="w-[16%] md:w-[5%]" />
+        <img src={notification} alt="" className="w-[16%] md:w-[5%]" />
+      </div>
+      <div className="Cards-Section flex s:flex-col md:flex-row md:mt-[7%] mt-[15%] s:ml-[10%] md:ml-0 s:space-y-4 md:space-y-0 cursor-pointer">
+        <div className="">
+          <img src={calculator} alt="" className="w-[90%]"></img>
         </div>
-
-        <div className="second grid grid-cols-5 s:ml-10 s:mt-[-70px] md:mt-16 mr-4">
-          <div className="w-[230px] h-[140px] s:w-[200px] p-10 border-[1px] rounded border-[#235688] hover:bg-[#c8d3d3] hover:border-none ">
-            <img className="w-[60px] -mt-5 ml-6 " src={calculator} alt="" />
-            <p className="font-semibold text-center text-[#235688] text-[20px]">
-              Calculator
-            </p>
-          </div>
-
-          <div className="w-[230px] h-[140px] s:w-[200px] p-10 border-[1px]  rounded border-[#235688] hover:border-none">
-            <img className="w-[60px] -mt-5 ml-3" src={vendorlist} alt="" />
-            <p className="font-semibold text-[#235688] text-center text-[20px]">
-              Vendor List
-            </p>
-          </div>
-
-          <div className="w-[230px] h-[140px] s:w-[200px] p-10 border-[1px] rounded border-[#235688] hover:border-none">
-            <img
-              className=" w-[60px] -mt-5 ml-[-31px] "
-              src={awareness}
-              alt=""
-            />
-            <p className="font-semibold text-[#235688]  ml-[-29px] text-[20px]">
-              Awareness Content
-            </p>
-          </div>
-
-          <div className="w-[230px] h-[140px] s:w-[200px] p-10 border-[1px] rounded border-[#235688] hover:border-none">
-            <img className="w-[60px] -mt-5 ml-[9px]" src={financial} alt="" />
-            <p className="font-semibold text-[#235688] text-center text-[20px]">
-              Financial Help
-            </p>
-          </div>
-
-          <div className="w-[230px] h-[140px] s:w-[200px] p-10 border-[1px] rounded border-[#235688] hover:border-none">
-            <img
-              className="w-[60px] -mt-5 -ml-3"
-              src={greencertificate}
-              alt=""
-            />
-            <p className="font-semibold text-[#235688] ml-[-7px] text-[20px]">
-              Green Certificate
-            </p>
-          </div>
+        <div className="">
+          <img src={vendorlist} alt="" className="w-[90%]"></img>
+        </div>
+        <div className="">
+          <img src={awareness} alt="" className="w-[90%]"></img>
+        </div>
+        <div className="">
+          <img src={financial} alt="" className="w-[90%]"></img>
+        </div>
+        <div className="">
+          <img src={greencertificate} alt="" className="w-[90%]"></img>
         </div>
       </div>
     </div>

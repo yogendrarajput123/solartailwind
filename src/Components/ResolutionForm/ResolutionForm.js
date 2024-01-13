@@ -1,32 +1,3 @@
-// import React from 'react'
-// import nav1 from '../ResolutionForm/Images/nav1.png'
-// import nav2 from "../ResolutionForm/Images/nav2.png";
-// import nav3 from "../ResolutionForm/Images/nav3.png";
-// import nav4 from "../ResolutionForm/Images/nav4.png";
-
-// const ResolutionForm = () => {
-//   return (
-//     <main className="bg-[#8A8F93] w-full h-full mb-10">
-//       <nav className="bg-white w-full h-[15%]">
-//         <div className="flex lg:gap-x-32 md:gap-x-7 justify-center items-center ">
-//           <img src={nav1} alt="" className="w-[6%]" />
-//           <img src={nav2} alt="" className="w-[8%]" />
-//           <img src={nav3} alt="" className="w-[7%]" />
-//           <img src={nav4} alt="" className="w-[7%]" />
-//         </div>
-//       </nav>
-
-//       <div className="bg-[#8A8F93] w-full p-6">
-//         <div className="bg-white my-10 p-4">
-//           <div><h1>lojdbsd sh sh shf shf sh </h1></div>
-//         </div>
-//       </div>
-
-//     </main>
-//   );
-// }
-
-// export default ResolutionForm
 import React from "react";
 import nav1 from "../ResolutionForm/Images/nav1.png";
 import nav2 from "../ResolutionForm/Images/nav2.png";
@@ -42,7 +13,7 @@ const ResolutionForm = () => {
 
   return (
     <main className="bg-[#8A8F93] w-full h-[100vh] mb-10">
-      <nav className="bg-white w-full lg:h-[20%] xl2:h-[20%]">
+      <nav className="bg-white w-full ">
         <div className="flex md:gap-x-24 s:gap-x-4 justify-center items-center">
           <img src={nav1} alt="" className="md:w-[7%] s:w-[18%]" />
           <img src={nav2} alt="" className="md:w-[8%] s:w-[20%]" />

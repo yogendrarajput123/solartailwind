@@ -9,6 +9,10 @@ import nav7 from "../VendorCards/images/nav7.png";
 import card1 from "../VendorCards/images/card1.png";
 import card2 from "../VendorCards/images/card2.png";
 import like from "../VendorCards/images/like.png";
+import Close from "../VendorCards/images/Close_round.png";
+
+
+
 export default function VendorCards() {
   return (
     <main className="bg-[#8A8F93] w-full h-auto mb-10">
@@ -28,6 +32,11 @@ export default function VendorCards() {
 
       <div className="bg-[#8A8F93] w-full">
         <div className="bg-white w-[85%]  mx-auto my-10">
+          <img
+            src={Close}
+            alt=""
+            className="md:w-[4%] s:w-[8%] ml-[100%] cursor-pointer"
+          />
           <div>
             <div className="md:p-10 s:p-5 s:text-center md:text-start">
               <h1 className="text-2xl font-semibold">Vendor Cards</h1>
