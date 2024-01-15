@@ -30,9 +30,9 @@ function App() {
       {/* <Notification /> */}
       {/* <NotificationOnProduct /> */}
       {/* <Home /> */}
-      <VendorLikes />
+      {/* <VendorLikes /> */}
       {/* <VendorCards/> */}
-      {/* <Calculator /> */}
+      <Calculator />
       {/* <ResolutionForm /> */}
       {/* <GreenCertiRequest /> */}
     </div>

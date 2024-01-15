@@ -2,12 +2,15 @@ import React from "react";
 import info from "../Calculator/images/info.png";
 import Close from "../Calculator/images/Close_round.png";
 
-
 const Calculator = () => {
   return (
     <div className="bg-[#8A8F93] w-full md:px-14 s:px-6">
       <div className="bg-white py-10">
-        <img src={Close} alt="" className="md:w-[4%] s:w-[8%] ml-[100%] -mt-8" />
+        <img
+          src={Close}
+          alt=""
+          className="md:w-[4%] s:w-[8%] ml-[100%] -mt-8"
+        />
         <div className="w-full">
           <div className="Content bg-blue-50 w-full h-[100%] rounded-sm md:p-8 s:p-2">
             <div className="first-section lg:ml-4 md:-ml-4">
@@ -25,7 +28,7 @@ const Calculator = () => {
                   <input type="radio" className="lg:ml-3 md:ml-1  s:ml-1" />
                   <label className="ml-2">Sq. Feet</label>
                 </div>
-                <div className="flex s:flex-col md:flex-row md:items-center md:space-x-2 md:w-[50%] s:w-[100%]">
+                <div className="flex s:flex-col md:flex-row md:items-center md:space-x-2 md:w-[50%] s:w-[100%] md:-mt-6 lg:mt-0">
                   <p className="text-gray-600 xl2:-ml-24 md:ml-2 s:mt-2 s:ml-[45%]">
                     OR
                   </p>
