@@ -32,9 +32,9 @@ function App() {
       {/* <Home /> */}
       {/* <VendorLikes /> */}
       {/* <VendorCards/> */}
-      <Calculator />
+      {/* <Calculator /> */}
       {/* <ResolutionForm /> */}
-      {/* <GreenCertiRequest /> */}
+      <GreenCertiRequest />
     </div>
   );
 }
